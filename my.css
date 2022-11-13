@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+body {
+    background-color: white;
+    margin: 0px;
+}
+
+header {
+    background-color: #001B2E;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 18px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: black;
+
+}
+
+nav {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: center;
+    font-size: larger;
+    word-spacing: 2px;
+}
+
+nav a {
+    padding: 14px 16px;
+}
+
+nav a:hover {
+    background-color: #cda8b8;
+    color: white;
+    border-radius: 50%;
+}
+
+img {
+    max-width: 300px;
+    max-height: 400px;
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 15px;
+    display: table-cell
+}
+
+p {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-weight: bold;
+    font-size: large;
+}
+
+article {
+    background-color: #DDDBF1;
+    color: black;
+    text-align: left;
+    margin: 0px;
+    padding: 18px;
+
+}
+
+.s1 {
+    background-color: #FFEFD3;
+    border-radius: 30px;
+}
+
+.my {
+    float: right;
+}
+
+.word {
+    float: left;
+}
+
+.s2 {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+
+}
+
+#word {
+    text-align: left;
+    font-size: 18px;
+    position: relative;
+    top: 30px;
+    letter-spacing: 5px;
+}
+
+
+.bt {
+    width: 50px;
+    height: 50px;
+    border-radius: 0%;
+    position: fixed;
+    bottom: 16px;
+    right: 25px;
+    background-color: rgb(219, 148, 148);
+    transition: 0.25s;
+    z-index: 99;
+    transform: scale(1.06);
+}
+
+.bt:hover {
+    opacity: 0.8;
+}
+
+.bt h1 {
+    position: relative;
+    top: 15px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.image-container {
+    max-width: 60%;
+    margin: 20%;
+}
+
+.image1 {
+    float: right;
+}
+
+.first {
+    width: 800px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.first1 {
+    width: 300px;
+    float: left;
+    padding: 20px;
+}
+
+.first1 img {
+    display: block;
+    width: 100%;
+}
+
+.bdtext {
+    float: right;
+    width: 430px;
+    padding: 20px 20px 0px 0px;
+}
+
+footer {
+    width: 100%;
+    height: 160px;
+    background-color: rgb(184, 170, 170);
+    padding-top: 15px;
+}
+
+footer h3 {
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive, marker felt, fantasy;
+    text-align: center;
+    color: black;
+}
+
+.last {
+    width: 400px;
+    position: relative;
+    left: calc(50% - 200px);
+}
